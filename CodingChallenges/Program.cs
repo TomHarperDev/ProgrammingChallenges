@@ -11,8 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            //hello
-            Console.WriteLine("hello tom");
+
         }
     }
 }
