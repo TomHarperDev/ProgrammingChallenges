@@ -11,7 +11,8 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-
+            Tiles tiles = new Tiles(50, 50, 5);
+            Console.ReadLine();
         }
     }
 }

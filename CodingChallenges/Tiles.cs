@@ -14,7 +14,12 @@ namespace CodingChallenges
 
             totalArea = (totalArea % 10 > 0) ? totalArea + 1 : totalArea;
 
-            int tiles = totalArea
+            int tiles = Convert.ToInt32(totalArea);
+
+            Console.WriteLine($"Number of tiles is: {tiles}");
+
+
+            Console.WriteLine($"Cost of tiles is: {tiles*cost}");
         }
 
     }
