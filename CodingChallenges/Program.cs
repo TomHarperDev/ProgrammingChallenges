@@ -10,7 +10,9 @@ namespace CodingChallenges
     internal class Program
     {
         static void Main(string[] args)
-        { 
+        {
+            //hello
+            Console.WriteLine("hiiii");
         }
     }
 }
