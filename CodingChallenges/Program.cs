@@ -11,7 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            NumberTable nums = new NumberTable("+", 5);
+            TruthOrNot truth = new TruthOrNot(5);
             Console.ReadLine();
         }
     }

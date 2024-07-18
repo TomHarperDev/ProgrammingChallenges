@@ -8,7 +8,7 @@ namespace CodingChallenges
 {
     internal class NumberTable
     {
-        public NumberTable(string symbol, int number) 
+        public NumberTable(int number) 
         {
             StringBuilder row = new StringBuilder();
             number++;

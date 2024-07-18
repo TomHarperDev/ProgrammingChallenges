@@ -50,6 +50,7 @@
     <Compile Include="RandomPassword.cs" />
     <Compile Include="Speed.cs" />
     <Compile Include="Tiles.cs" />
+    <Compile Include="TruthOrNot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
