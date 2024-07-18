@@ -13,6 +13,7 @@ namespace CodingChallenges
         {
             LogicGate logicGate = new LogicGate("nor", true, false);
             Console.ReadLine();
+            Console.WriteLine("adam helped me");
         }
     }
 }
