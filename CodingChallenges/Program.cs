@@ -11,9 +11,8 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            LogicGate logicGate = new LogicGate("nor", true, false);
+            TruthOrNot truth = new TruthOrNot(5);
             Console.ReadLine();
-            Console.WriteLine("adam helped me");
         }
     }
 }

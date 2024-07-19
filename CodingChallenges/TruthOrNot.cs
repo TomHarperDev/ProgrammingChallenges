@@ -12,20 +12,19 @@ namespace CodingChallenges
         {
             //gets the number of binary inputs in the number
             Console.WriteLine("Rows needed: " + Math.Pow(2, inputLength));
+            Console.WriteLine(ConvertToBinary(inputLength));
 
-            StringBuilder output = new StringBuilder();
+        }
+        public string ConvertToBinary(int num)
+        {
+            StringBuilder ouputs = new StringBuilder();
 
-            for (int i = 0; i < Math.Pow(2, inputLength); i++)
+            while (num != 0)
             {
-                for (int j = inputLength - 1; j >  inputLength; j--)
-                {
-                    if (output[j] == '0')
-                    {
-                        output[j] == '1';
-                    }
-                    break;
-                }
+                ouputs.Append(Convert.ToString(num % 2));
+                num = Convert.ToInt32(num / 2);
             }
+            return (Convert.ToString(ouputs));
         }
     }
 }
