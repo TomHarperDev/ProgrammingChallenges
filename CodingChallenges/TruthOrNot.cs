@@ -14,17 +14,23 @@ namespace CodingChallenges
             Console.WriteLine("Rows needed: " + Math.Pow(2, inputLength));
             Console.WriteLine(ConvertToBinary(inputLength));
 
+
+            for (int i = 0; i < Math.Pow(2, inputLength); i++)
+            {
+                Console.WriteLine(ConvertToBinary(i));
+            }
+
         }
         public string ConvertToBinary(int num)
         {
-            StringBuilder ouputs = new StringBuilder();
+            StringBuilder outputs = new StringBuilder();
 
             while (num != 0)
             {
-                ouputs.Append(Convert.ToString(num % 2));
+                outputs.Append(Convert.ToString(num % 2));
                 num = Convert.ToInt32(num / 2);
             }
-            return (Convert.ToString(ouputs));
+            return new string(outputs.ToString().Reverse().ToArray());
         }
     }
 }
