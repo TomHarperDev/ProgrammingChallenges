@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1_FactorialFinder.cs" />
+    <Compile Include="CeaserCipher.cs" />
     <Compile Include="FruitMachine.cs" />
+    <Compile Include="ItemMerge.cs" />
     <Compile Include="LogicGate.cs" />
     <Compile Include="NumberTable.cs" />
     <Compile Include="Ordering.cs" />

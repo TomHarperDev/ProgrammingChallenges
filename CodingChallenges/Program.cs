@@ -11,8 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            TruthOrNot truth = new TruthOrNot(5);
-            Console.ReadLine();
+            _1_FactorialFinder factorial = new _1_FactorialFinder();
         }
     }
 }
