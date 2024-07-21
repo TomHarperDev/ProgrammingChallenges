@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_FactorialFinder.cs" />
+    <Compile Include="2_SpeedTracker.cs" />
+    <Compile Include="3_Thief.cs" />
     <Compile Include="CeaserCipher.cs" />
     <Compile Include="FruitMachine.cs" />
     <Compile Include="ItemMerge.cs" />
@@ -54,7 +56,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomPassword.cs" />
-    <Compile Include="Speed.cs" />
     <Compile Include="Tiles.cs" />
     <Compile Include="TruthOrNot.cs" />
   </ItemGroup>

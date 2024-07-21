@@ -11,7 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            _1_FactorialFinder factorial = new _1_FactorialFinder();
+            _3_Thief tief = new _3_Thief();
         }
     }
 }

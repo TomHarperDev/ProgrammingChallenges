@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CodingChallenges
 {
-    internal class Speed
+    internal class _2_SpeedTracker
     {
-        public Speed(decimal seconds) 
+        public _2_SpeedTracker(decimal seconds) 
         {
             Console.WriteLine(1 / (seconds/3600) + "Miles per hour");
         }
