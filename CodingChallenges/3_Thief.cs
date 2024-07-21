@@ -8,21 +8,28 @@ namespace CodingChallenges
 {
     internal class _3_Thief
     {
-        public _3_Thief() 
+        public _3_Thief(char[] chars) 
         {
-            char[] chars = { '1', '2', '3', '4'};
-            Console.WriteLine(Swap(chars, , ));
-            Console.WriteLine(Swap(chars, , ));
-            Console.WriteLine(Swap(chars, , ));
-            Console.WriteLine(Swap(chars, , ));
-            Console.WriteLine(Swap(chars, , ));
-            Console.WriteLine(Swap(chars, , ));
+            int pinLength = chars.Length;
+            Permuatations(chars, 0, pinLength - 1);
         }
 
-
-
-
-
+        public void Permuatations(char[] chars, int left, int right)
+        {
+            if (left == right)
+            {
+                Console.WriteLine(chars);
+            }
+            else
+            {
+                for (int i = left; i <= right; i++)
+                {
+                    chars = Swap(chars, left, i);
+                    Permuatations((char[])chars, left + 1, right);
+                    chars = Swap(chars, left, i);
+                }
+            }
+        }
 
         public char[] Swap(char[] chars, int num1, int num2)
         {
@@ -31,25 +38,5 @@ namespace CodingChallenges
             chars[num2] = changed;
             return chars;
         }
-
-
-
-
-        //public char[] permutation(char[] originalChars, int posToMove)
-        //{
-        //    char[] permuatationChars = originalChars;
-            
-        //    for (int i = 0; i < originalChars.Length; i++)
-        //    {
-        //        if (permuatationChars[i] == originalChars[i])
-        //        {
-        //            continue;
-        //        }
-        //        permuatationChars[i] = Convert.ToChar(posToMove);
-        //        break;
-        //    }
-        //    return permuatationChars;
-
-        //}
     }
 }
