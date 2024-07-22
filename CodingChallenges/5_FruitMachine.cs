@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CodingChallenges
 {
-    internal class FruitMachine
+    internal class _5_FruitMachine
     {
-        public FruitMachine() 
+        public _5_FruitMachine()
         {
-
             //string[] fruits = new string[] { "🍇", "🍍", "🍓", "☠" };
-            string[] fruits = new string[] { "4", "3", "2", "1" };
+            string[] fruits = new string[] { "Grape", "Pineapple", "Strawberry", "Skull" };
             decimal credit = 1;
 
             string[] output = new string[3];
@@ -24,7 +23,7 @@ namespace CodingChallenges
 
                 Console.WriteLine("Do you want to play?");
 
-                if (Console.ReadLine().Contains("e")) 
+                if (Console.ReadLine().Contains("e"))
                 {
                     credit -= 0.2m;
 
@@ -60,6 +59,5 @@ namespace CodingChallenges
                 Console.Clear();
             }
         }
-
     }
 }

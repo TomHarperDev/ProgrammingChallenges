@@ -11,7 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            _4_Classification classification = new _4_Classification();
+            _5_FruitMachine machine = new _5_FruitMachine();
         }
     }
 }
