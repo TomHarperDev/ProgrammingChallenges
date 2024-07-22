@@ -46,6 +46,7 @@
     <Compile Include="1_FactorialFinder.cs" />
     <Compile Include="2_SpeedTracker.cs" />
     <Compile Include="3_Thief.cs" />
+    <Compile Include="4_Classification.cs" />
     <Compile Include="CeaserCipher.cs" />
     <Compile Include="FruitMachine.cs" />
     <Compile Include="ItemMerge.cs" />

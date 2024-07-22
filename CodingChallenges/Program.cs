@@ -11,7 +11,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            _3_Thief tief = new _3_Thief();
+            _4_Classification classification = new _4_Classification();
         }
     }
 }
