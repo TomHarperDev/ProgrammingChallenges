@@ -50,6 +50,7 @@
     <Compile Include="5_FruitMachine.cs" />
     <Compile Include="6_UnitConverter.cs" />
     <Compile Include="7_CreditCardValidator.cs" />
+    <Compile Include="8_ArithmeticTest.cs" />
     <Compile Include="CeaserCipher.cs" />
     <Compile Include="ItemMerge.cs" />
     <Compile Include="LogicGate.cs" />
